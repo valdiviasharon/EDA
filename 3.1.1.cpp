@@ -7,10 +7,8 @@ int gnCount = 0;
 
 void Insert(int elem)
 {
-  if( gnCount < 100 ) // we can only insert if there is space
-    gVect[gnCount++] = elem; // Insert the element at the end
-  else
-    gnCount = 0;
+  if( gnCount < 100 )
+    gVect[gnCount++] = elem;
 }
 
 int main() 
